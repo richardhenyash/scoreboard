@@ -1,8 +1,10 @@
+Initial project setup:
 to install dependencies run: npm install
-to run development server: npy
-add node_modules to gitignore
-to initialise git repository and push:
+to run development server: npm start
 
+add node_modules to gitignore
+
+to initialise git and push to remote repository:
 git init
 git remote add origin https://github.com/richardhenyash/scoreboard.git
 git add .
