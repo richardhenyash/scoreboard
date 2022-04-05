@@ -1,3 +1,10 @@
 to install dependencies run: npm install
 to run development server: npy
 add node_modules to gitignore
+to initialise git repository and push:
+
+git init
+git remote add origin https://github.com/richardhenyash/scoreboard.git
+git add .
+git commit -m "initial commit"
+git push --set-upstream origin master
