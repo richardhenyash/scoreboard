@@ -47,6 +47,7 @@ class App extends Component {
       <div className="scoreboard">
         <Header 
           title="Scoreboard" 
+          players={this.state.players}
           totalPlayers={this.state.players.length} 
         />
   
